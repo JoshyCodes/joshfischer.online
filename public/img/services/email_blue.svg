@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="21px" viewBox="0 0 32 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Slice 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="email_pink" fill-rule="nonzero" fill="#266DD3">
+            <path d="M28,0 L4,0 C1.791,0 0,1.792 0,4 L0,17 C0,19.209 1.791,21 4,21 L28,21 C30.209,21 32,19.209 32,17 L32,4 C32,1.792 30.209,0 28,0 Z M2,5.25 L8.999,10.5 L2,15.75 L2,5.25 Z M30,17 C30,18.104 29.102,19 28,19 L4,19 C2.897,19 2,18.104 2,17 L9.832,11.125 L14.2,14.402 C14.733,14.8 15.366,15.002 16,15.002 C16.633,15.002 17.266,14.801 17.799,14.402 L22.168,11.125 L30,17 L30,17 Z M30,15.75 L23,10.5 L30,5.25 L30,15.75 Z M17.199,13.602 C16.85,13.864 16.436,14.002 16,14.002 C15.564,14.002 15.149,13.863 14.8,13.602 L10.665,10.5 L9.832,9.875 L2,4.001 L2,4 C2,2.897 2.897,2 4,2 L28,2 C29.102,2 30,2.897 30,4 L17.199,13.602 Z" id="mail"></path>
+        </g>
+    </g>
+</svg>

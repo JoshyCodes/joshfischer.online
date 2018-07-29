@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>if_notes_edit_103663</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="if_notes_edit_103663" transform="translate(-4.000000, -4.000000)">
+            <g id="background"></g>
+            <g id="notes_x5F_edit" transform="translate(4.000000, 4.000000)" fill-rule="nonzero" fill="#266DD3">
+                <path d="M20,8 L4,8 L4,10 L19,10 L20,10 L20,8 Z M24,11.518 L24,0 L0,0 L0,24 L11.518,24 C13.132,26.411 15.879,27.999 19,28 C23.971,27.998 27.998,23.971 28,19 C27.999,15.879 26.411,13.132 24,11.518 Z M11.517,14 C11.105,14.616 10.774,15.289 10.523,16 L4,16 L4,18 L10.058,18 C10.022,18.329 10,18.661 10,19 C10,20.054 10.19,21.061 10.523,22 L2,22 L2,2 L22,2 L22,10.523 C21.061,10.19 20.054,10 19,10 C16.857,10 14.893,10.751 13.348,12 L4,12 L4,14 L11.517,14 Z M19,25.883 C15.199,25.874 12.124,22.799 12.115,19 C12.124,15.199 15.199,12.124 19,12.116 C22.799,12.124 25.874,15.199 25.883,19 C25.874,22.799 22.799,25.874 19,25.883 Z" id="Shape"></path>
+                <polygon id="Shape" points="18 23 15 23 15 20"></polygon>
+                <rect id="Rectangle-path" transform="translate(20.000300, 17.999293) rotate(135.000000) translate(-20.000300, -17.999293) " x="16.4648339" y="15.8778132" width="7.07093219" height="4.24295931"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

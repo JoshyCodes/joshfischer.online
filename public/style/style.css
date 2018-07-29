@@ -1,0 +1,519 @@
+/*!
+  CSS file for 'PROJECT TITLE'
+  Syntax: css/stylesheet
+  Created by: Joshua D Fischer
+  Date: CURRENT DATE
+*/
+
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.5rem;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    padding-top: 80px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.center {
+    float: none;
+    text-align: center;
+    margin: auto;
+}
+
+.center-cropped {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.animate-transition {
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+}
+
+.flexer {
+    display: flex;
+}
+
+.navbar {
+    margin: 0;
+    height: 80px;
+    position: fixed;
+    z-index: 100;
+    border-bottom: 3px #266dd3 solid;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #FFF;
+}
+
+.navbar img {
+    flex-grow: 1;
+    align-self: center;
+    height: 60px;
+}
+
+/* Large */
+   .navigation {
+    flex-flow: row nowrap;
+    flex-grow: 8;
+    justify-content: flex-end;
+}
+
+.navigation a {
+    float: right;
+    margin: 30px 6% 0 0;
+    color: #121212;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero {
+    width: 100%;
+    height: 800px;
+    flex-flow: row;
+}
+
+.hero div {
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    line-height: 2rem;
+}
+
+.hero-text p {
+    font-size: 28px;
+    color: #707070;"
+}
+
+.contact {
+    width: 100%;
+    height: 500px;
+    flex-flow: row;
+}
+
+.contact div {
+    align-items: center;
+    flex-grow: 1;
+}
+
+.bbb {
+    border-bottom: 2px #2f2d2e solid;
+}
+
+.services {
+    width: 100%;
+    min-height: 800px;
+    flex-flow: column;
+}
+
+.service-icon {
+    flex-grow: 1;
+}
+
+.service-text {
+    flex-grow: 8;
+}
+
+.service-side {
+    flex-flow: column;
+    width: 45%;
+    justify-content: space-evenly;
+}
+
+.service-offered {
+    flex-flow: row;
+    width: 100%;
+    height: 88%;
+    justify-content: space-evenly;
+    flex-grow: 10;
+}
+
+.service-offered p {
+    color: #707070;
+}
+
+.service-row {
+    flex-flow: row;
+}
+
+.service-title {
+    width: 100%;
+    height: 8%;
+    padding-top: 2%;
+    flex-grow: 1;
+}
+
+.service-icon img {
+    width: 100px;
+    height: 100px;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 16px;
+    background: #FFF;
+    font-size: 16px;
+}
+.contact-form h1 {
+    font-family: 'Montserrat', sans-serif;
+    background: #266dd3;
+    padding: 20px 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin: -16px -16px 16px -16px;
+}
+.contact-form input,
+.contact-form textarea,
+.contact-form select
+{
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 4%;
+    border: 1px solid #ccc;
+    padding: 3%;
+    color: #A0A0A0;
+    font-size: 16px;
+}
+.contact-form input:focus,
+.contact-form textarea:focus,
+.contact-form select:focus
+{
+    box-shadow: 0 0 5px #266dd3;
+    padding: 3%;
+    border: 1px solid #266dd3;
+    font-size: 16px;
+}
+
+.contact-form input[type="submit"],
+.contact-form input[type="button"]{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    background: #266dd3;
+    border-bottom: 2px solid #266dd3;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    color: #fff;
+    font-size: 16px;
+}
+.contact-form input[type="submit"]:hover,
+.contact-form input[type="button"]:hover{
+    background: #266dd3;
+}
+
+.contact-form input[type="submit"] {
+    margin-bottom: -3px;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    padding-top: 10px;
+}
+
+.footer img {
+    height: 80px;
+}
+
+.numbers {
+    width: 100%;
+    height: 500px;
+    align-content: center;
+    flex-flow: row;
+}
+.number-side {
+    flex-flow: row;
+    justify-content: space-around;
+    flex-grow: 1;
+    height: 75%;
+}
+.nums {
+    flex-grow: 1;
+}
+.nums div {
+    height: 200px;
+    width: 200px;
+    background-color: #266dd3;
+    border-radius: 50%;
+    color: #FFFFFF;
+    padding-top: 85px;
+}
+.nums div span {
+    font-size: 85px;
+    font-family: 'Montserrat', sans-serif;
+}
+.nums div p {
+    color: #2f2d2e;
+    margin-top: 100px;
+}
+
+.process {
+    width: 100%;
+    height: 600px;
+    flex-flow: column;
+}
+.processes {
+    width: 100%;
+    flex-flow: row;
+    flex-grow: 10;
+}
+.process-title {
+    width: 100%;
+    height: 8%;
+    padding-top: 4%;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.process-side {
+    flex-flow: row;
+    flex-grow: 1;
+    margin: 75px 0 75px 0;
+}
+.one-process {
+    flex-grow: 1;
+}
+.one-process div {
+    height: 200px;
+    width: 200px;
+    background-color: #266dd3;
+    color: #FFFFFF;
+    padding-top: 85px;
+}
+.one-process div span {
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+.one-process div p {
+    color: #2f2d2e;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 1020px) {
+    .service-icon {
+        width: 80px;
+        height: 80px;
+    }
+    .service-text h2 {
+        font-size: 24px;
+    }
+    .service-text p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .contact-text {
+        background-color: #FFFFFF;
+        opacity: .8;
+    }
+    .contact-text h2 {
+        color: #266dd3;
+    }
+    .contact-text p {
+        color: #707070;
+    }
+}
+@media all and (max-width: 960px) {
+    .hero {
+        flex-flow: column;
+    }
+    .hero-text {
+        margin-top: -150px;
+    }
+}
+@media all and (max-width: 880px) {
+    .number-side {
+        align-items: center;
+        flex-flow: column;
+        height: 100%;
+        margin-top: 30px;
+    }
+    .numbers {
+        height: 800px;
+        align-items: center;
+    }
+    .nums div {
+        height: 150px;
+        width: 150px;
+        padding-top: 55px;
+    }
+    .nums div span {
+        font-size: 50px;
+    }
+    .nums div p {
+        margin-top: 80px;
+    }
+    .one-process div {
+        height: 150px;
+        width: 150px;
+        padding-top: 60px;
+    }
+    .one-process div span {
+        font-size: 35px;
+    }
+    .one-process div p {
+        margin-top: 70px;
+    }
+    .contact {
+        flex-flow: column;
+        height: 800px;
+        padding-top: 50px;
+    }
+    .contact-text {
+        width: 420px;
+    }
+    .contact-form {
+        margin-top: 80px;
+    }
+}
+
+
+
+@media all and (max-width: 800px) {
+    .navigation {
+        justify-content: space-around;
+    }
+    .navbar {
+        flex-flow: column;
+        height: 120px;
+    }
+    .navigation a {
+        margin: 15px 0 0 0;
+    }
+    .hero {
+        padding-top: 40px;
+    }
+    .service-offered {
+        flex-flow: column;
+    }
+    .service-side {
+        float: none;
+        text-align: center;
+        margin: auto;
+        flex-grow: 1;
+        width: 80%;
+    }
+}
+@media all and (max-width: 650px) {
+    .process {
+        height: 800px;
+    }
+    .process-side {
+        flex-flow: column;
+        margin-top: -20px;
+    }
+    .two-process {
+        padding-top: 100px;
+    }
+    .one-process div {
+        padding-top: 60px;
+    }
+    .one-process div span {
+        font-size: 35px;
+    }
+    .one-process div p {
+        margin-top: 70px;
+    }
+    .footer {
+        flex-flow: column;
+        height: 200px;
+    }
+}
+@media all and (max-width: 450px) {
+    .contact-text {
+        width: 80%;
+    }
+}
+@media all and (max-width: 400px) {
+    .navigation a {
+        /* On small screens, we are no longer using row direction but column */
+        /*flex-direction: column;*/
+        font-size: 12px;
+    }
+    .hero img {
+        width: 90%;
+    }
+    .hero-text p{
+        font-size: 18px;
+    }
+    .hero-text h2 {
+        line-height: 2rem;
+    }
+    .nums-two {
+        margin-top: -120px;
+    }
+    .number-side {
+        margin-top: 35px;
+    }
+    .nums div {
+        height: 100px;
+        width: 100px;
+        padding-top: 35px;
+    }
+    .nums div span {
+        font-size: 36px;
+    }
+    .nums div p {
+        margin-top: 40px;
+    }
+    .one-process div {
+        height: 100px;
+        width: 100px;
+        padding-top: 35px;
+    }
+    .one-process div span {
+        font-size: 24px;
+    }
+    .one-process div p {
+        margin-top: 50px;
+    }
+    .process-side {
+        margin-top: -40px;
+    }
+    .process {
+        height: 870px;
+    }
+    .two-process {
+        padding-top: 150px;
+    }
+
+}
